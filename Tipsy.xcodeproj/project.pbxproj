@@ -62,18 +62,42 @@
 		8D1EAB49282BC5AB0029070A /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				8D1EAB67282BD0690029070A /* View */,
+				8D1EAB66282BD0600029070A /* Model */,
+				8D1EAB65282BD0550029070A /* Controller */,
 				8D1EAB4A282BC5AB0029070A /* AppDelegate.swift */,
 				8D1EAB4C282BC5AB0029070A /* SceneDelegate.swift */,
-				8D1EAB4E282BC5AB0029070A /* CalculatorViewController.swift */,
-				8D1EAB50282BC5AB0029070A /* Main.storyboard */,
 				8D1EAB56282BC5AC0029070A /* Assets.xcassets */,
 				8D1EAB58282BC5AC0029070A /* LaunchScreen.storyboard */,
 				8D1EAB5B282BC5AC0029070A /* Info.plist */,
 				8D1EAB53282BC5AB0029070A /* Tipsy.xcdatamodeld */,
-				8D1EAB61282BC6B10029070A /* ResultsViewController.swift */,
-				8D1EAB63282BC7270029070A /* Bill.swift */,
 			);
 			path = Tipsy;
+			sourceTree = "<group>";
+		};
+		8D1EAB65282BD0550029070A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D1EAB4E282BC5AB0029070A /* CalculatorViewController.swift */,
+				8D1EAB61282BC6B10029070A /* ResultsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D1EAB66282BD0600029070A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D1EAB63282BC7270029070A /* Bill.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D1EAB67282BD0690029070A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D1EAB50282BC5AB0029070A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
